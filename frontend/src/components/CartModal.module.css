@@ -1,0 +1,45 @@
+
+.dialog{
+    width: 30vw;
+    height: fit-content;
+}
+.dialog>.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dialog>.content>.buttons>button{
+    margin: 10px;
+}
+.dialog>.content>.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dialog>.content>.list>p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 10px
+}
+.list>p>button{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    
+}
+.dialog button{
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.dialog button:hover{
+    background-color: white;
+    color: black;
+}

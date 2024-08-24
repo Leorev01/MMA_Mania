@@ -1,0 +1,61 @@
+.homeshop {
+    width: auto;
+    margin: 0 auto; /* Center the shop container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally within the parent */
+    justify-content: center; /* Center vertically within the parent */
+    padding: 1rem; /* Optional: Add some padding for smaller screens */
+}
+
+.homeshop>.shopHeading {
+    margin: 0 auto; /* Center the h1 horizontally */
+    text-align: center; /* Ensure text is centered */
+    color: black;
+}
+
+.items {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically within the container */
+    justify-content: center; /* Center items horizontally within the container */
+    width: 100%; /* Full width of the parent container */
+    flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+}
+
+.item {
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: larger;
+    text-decoration: none;
+    transition: padding 0.3s ease; /* Smooth transition for padding on hover */
+    margin: 0.5rem; /* Margin to prevent sticking and spacing between items */
+}
+
+.item > * {
+    color: white;
+}
+
+.item:hover {
+    cursor: pointer;
+    padding: 15px; /* Increased padding on hover */
+}
+
+.imageContainer {
+    width: 70vw; /* Maximum width to control size on large screens */
+    height: auto; /* Height adjusts automatically */
+    overflow: hidden; /* Hide overflow */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    aspect-ratio: 16/9; /* Maintain aspect ratio */
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale the image to cover the container */
+    object-position: center; /* Center the image */
+    display: block; /* Ensure there's no extra space around the image */
+}

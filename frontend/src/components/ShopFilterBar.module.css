@@ -1,0 +1,99 @@
+.shopContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.shopFilterBar{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.shopFilterBar>h1{
+    padding: 0.5rem 1rem;
+    margin: 0;
+    margin-right: 3vw;
+}
+.select{
+    width: 100%;
+    margin: auto;
+}
+.select>label{
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+.select>select{
+    width: 100px;
+}
+.searchBar{
+    margin-top: 2vh;
+    height: 30px;
+    width: 400px;
+    align-self: center;
+    border: solid;
+    border-radius: 5px;
+}
+.shopFilterBar>button{
+    height: 30px;
+    margin-right: 3vw;
+}
+.shopFilter button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.shopFilterBar button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.dropdown{
+    position: absolute;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+.dropBtns{
+    display: flex;
+    flex-direction: row;
+}
+.dropBtns>button{
+    margin: 10px;
+}
+.dropArrow {
+    display: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto; /* Align to the right */
+    transition: transform 0.3s ease; /* Add a smooth transition for the hover effect */
+    transform: rotate(0deg);
+}
+
+.dropArrow:hover {
+    transform: scale(1.1); /* Scale up the arrow on hover */
+}
+.dropArrow.open {
+    transform: rotate(-90deg); /* Scale down the arrow on click */
+}
+
+@media screen and (max-width: 1230px) {
+    .select{
+        display: none;
+    }
+    .shopFilterBar>button{
+        display: none;
+    }
+    .dropArrow{
+        display: block;
+    }
+    .shopFilterBar>h1{
+        margin-right: 0;
+    }
+    
+}

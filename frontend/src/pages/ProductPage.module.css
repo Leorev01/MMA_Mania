@@ -1,0 +1,39 @@
+.product{
+    width: 99vw;
+    text-align: center;
+    color: black;
+}
+.product>h1{
+    font-size: xx-large;
+}
+.product>img{
+    width: 40%;
+}
+.product>*{
+    font-size: x-large;
+}
+.productButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.productButton>h3{
+    height: 100%;
+    padding-bottom: 2vh;
+}
+.productButton>button{
+    margin-bottom: 3vh;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.productButton>button:hover{
+    transform: scale(1.1);
+}

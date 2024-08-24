@@ -1,0 +1,74 @@
+{"products":[
+    {
+        "id":"EBG-001-14",
+        "name":"Everlast Boxing Gloves-14oz",
+        "price":30,
+        "description":"Decent pair of boxing gloves from Everlast.",
+        "categories":["boxing", "gloves","muay thai", "14oz", "no gender"],
+        "image":"https://m.media-amazon.com/images/I/81-r9YcLgYL.jpg"
+    },
+    {
+        "id":"RBG-001-16",
+        "name":"Reyes Boxing Gloves - 16oz",
+        "price":80,
+        "description":"Great pair of boxing gloves from Reyes.",
+        "categories":["boxing", "gloves", "muay thai","16oz", "no gender"],
+        "image":"https://www.fightoutlet.co.uk/uploads/images/products/large/Cleto-Reyes-Cleto-Reyes-Red-Lace-up-Sparring-Gloves.jpg"
+    },
+    {
+        "id":"YBG-001-16",
+        "name":"Yokkao Boxing Gloves - 10oz",
+        "price":60,
+        "description":"Great pair of boxing gloves from Yokkao.",
+        "categories":["boxing", "gloves", "muay thai", "10oz", "mens"],
+        "image":"https://minotaurfightstore.co.uk/wp-content/uploads/2023/03/57-5.jpg"
+    },
+    {
+        "id":"VBG-001-12",
+        "name":"Venum Boxing Gloves - 12oz",
+        "price":65,
+        "description":"Stylish and protective boxing gloves from Venum, designed for heavy hitters.",
+        "categories":["boxing", "gloves", "muay thai", "12oz", "womens"],
+        "image":"https://i0.wp.com/sugarrays.co.uk/wp-content/uploads/catalog/product/bg_elite_white_gold_1500_01.jpg?fit=500%2C500&ssl=1"
+    },
+    {
+        "id": "FSG-002-L",
+        "name": "Fairtex Shin Guards - L",
+        "price":50,
+        "description":"Durable shin guards from Fairtex, providing excellent protection and comfort.",
+        "categories":["muay thai", "shin guards", "mma", "l", "no gender"],
+        "image":"https://m.media-amazon.com/images/I/81MScLcGzDS._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "RHG-001-XL",
+        "name": "RDX Headgear - XL",
+        "price":40,
+        "description":"Full-face protection with excellent visibility, suitable for all combat sports.",
+        "categories":["boxing", "headgear", "sparring", "xl", "mens"],
+        "image":"https://m.media-amazon.com/images/I/71+hf8xiZWL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": "VMG-003-S",
+        "name": "Venum MMA Gloves - S",
+        "price":45,
+        "description":"Lightweight MMA gloves from Venum, designed for speed and power.",
+        "categories":["mma", "gloves", "sparring", "s", "womens"],
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvl7sSG-BcBYag_I-XXGd7tLPdCNw-VowUAQ&s"
+    },
+    {
+        "id": "YRG-002-M",
+        "name": "Yokkao Rash Guard - M",
+        "price":35,
+        "description":"High-quality rash guard from Yokkao, perfect for grappling and no-gi training.",
+        "categories":["mma", "rash guards", "grappling", "m", "mens", "clothes"],
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxuG1fvkIta6_kiixBCkNQ6h8UgDKxv5KXsA&s"
+    },
+    {
+        "id": "VWS-002-M",
+        "name": "Venum Women's Fight Shorts - M",
+        "price":55,
+        "description":"Comfortable and durable fight shorts designed for women, featuring a modern Venum design.",
+        "categories":["mma", "muay thai", "shorts", "fightwear", "m", "womens", "clothes"],
+        "image":"https://cdn.webshopapp.com/shops/16221/files/284368656/image.jpg"
+    }
+]}
