@@ -5,7 +5,7 @@ const apiURL = process.env.REACT_APP_API_URL || "https://mma-mania-backend.onren
 
 function Product({product}){
     return(
-        <Link to={`${apiURL}/shop/${product.id}`} className={classes.product}>
+        <Link to={`/shop/${product.id}`} className={classes.product}>
             <img src={product.image} alt="product"/>
             <div className="product-info">
                 <p>{product.name}</p>
