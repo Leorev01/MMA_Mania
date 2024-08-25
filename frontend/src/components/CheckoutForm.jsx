@@ -3,7 +3,7 @@ import classes from "../pages/CheckoutPage.module.css";
 import { useCart } from "../contexts/CartContext";
 
 async function submitHandler(event, navigate, clearCart){
-    const apiURL = "https://mma-mania-backend.onrender.com";
+    const apiURL = process.env.REACT_APP_API_URL || "https://mma-mania-backend.onrender.com";
     event.preventDefault();
     const response = await fetch(`${apiURL}/orders/addOrder`, {
         method:"POST",

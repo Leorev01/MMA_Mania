@@ -3,8 +3,9 @@ import Product from "../components/Product";
 import { useEffect, useState } from "react";
 import { useOutletContext, useSearchParams } from "react-router-dom";
 
+const apiURL =process.env.REACT_APP_API_URL ||  "https://mma-mania-backend.onrender.com";
+
 function MainShop() {
-    const apiURL = "https://mma-mania-backend.onrender.com";
     const { filters, input } = useOutletContext();
     const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([]);
