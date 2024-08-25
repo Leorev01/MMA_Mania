@@ -4,7 +4,7 @@ import fs from "fs/promises";
 import itemRoutes from "./routes/items.js";
 import orderRoutes from "./routes/orders.js";
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
