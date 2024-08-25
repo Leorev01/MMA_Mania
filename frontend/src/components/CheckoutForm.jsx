@@ -3,8 +3,9 @@ import classes from "../pages/CheckoutPage.module.css";
 import { useCart } from "../contexts/CartContext";
 
 async function submitHandler(event, navigate, clearCart){
+    const apiURL = "https://mma-mania-backend.onrender.com";
     event.preventDefault();
-    const response = await fetch("http://localhost:8080/orders/addOrder", {
+    const response = await fetch(`${apiURL}/orders/addOrder`, {
         method:"POST",
         headers:{
             "Content-Type":"application/json"

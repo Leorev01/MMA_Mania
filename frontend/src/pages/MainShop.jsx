@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useOutletContext, useSearchParams } from "react-router-dom";
 
 function MainShop() {
+    const apiURL = "https://mma-mania-backend.onrender.com";
     const { filters, input } = useOutletContext();
     const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([]);
@@ -89,7 +90,7 @@ function MainShop() {
 }
 
 async function getProducts() {
-    const response = await fetch("http://localhost:8080/products");
+    const response = await fetch(`${apiURL}/products`);
     if (!response.ok) {
         throw new Response("Could not fetch products", { status: response.status });
     }
