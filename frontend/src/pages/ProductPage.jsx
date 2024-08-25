@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import classes from "./ProductPage.module.css";
 import { useCart } from "../contexts/CartContext";
 
+const apiURL = process.env.REACT_APP_API_URL || "https://mma-mania-backend.onrender.com";
+
 function ProductPage() {
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -21,7 +23,7 @@ function ProductPage() {
             setLoading(true);
             try {
                 console.log("Fetching product with ID:", productId); // Log productId to debug
-                const response = await fetch(`http://localhost:8080/products/${productId}`);
+                const response = await fetch(`${apiURL}/products/${productId}`);
                 if (!response.ok) {
                     throw new Error(`Could not fetch product with ID: ${productId}`);
                 }
