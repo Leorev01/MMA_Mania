@@ -1,6 +1,6 @@
 
 .dialog{
-    width: 30vw;
+    width: fit-content;
     height: fit-content;
 }
 .dialog>.content{
